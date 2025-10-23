@@ -55,7 +55,7 @@ insert into obiekty (nazwa, geometria)
 values (
 	'obiekt4',
 	ST_GeomFromText( 
-		'COMPOUNDCURVE(
+		'MULTILINESTRING(
 			(20.5 19.5, 22 19),
 			(22 19, 26 21),
 			(26 21, 25 22),
